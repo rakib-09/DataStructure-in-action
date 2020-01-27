@@ -17,7 +17,6 @@ class TriangleTest {
         //pow($first, 2) = pow($sec, 2) + pow($third, 2) + 2 * $sec * $third* COS A;
         $A = acos((pow($first, 2) - pow($sec, 2)- pow($third, 2)) / (2* $sec * $third));
 
-
         //get angel B
         //SINA/a = SINB/b
         //SIN$A/$first = SIN$B/$sec
